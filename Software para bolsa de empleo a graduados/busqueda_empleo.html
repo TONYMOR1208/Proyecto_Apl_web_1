@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="busqempleo.css">
+    <title>Busqueda de empleo</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Busqueda de Empleo para Graduados de la ULEAM</h1>
+        <nav class>
+            <ul>
+                <li><a href="consulta_informacion.html">Consultar Informacion </a></li>
+            </ul>
+           </nav>
+
+           <nav class>
+            <ul>
+                <li><a href="registrodedatos.html">Registra tus datos</a></li>
+            </ul>
+           </nav>
+           
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Filtros</h2>
+            <div class="filter">
+                <label for="location">Ubicación:</label>
+                <input type="text" id="location" name="location">
+            </div>
+            <div class="filter">
+                <label for="industry">Industria:</label>
+                <select id="industry" name="industry">
+                    <option value="">Todas</option>
+                    <option value="IT">Tecnología de la Información</option>
+                    <option value="Finance">Finanzas</option>
+                    <option value="Healthcare">Salud</option>
+                </select>
+            </div>
+            <button id="filterButton">Filtrar</button>
+        </div>
+        <div class="job-list">
+            <!-- Trabajo 1 -->
+            <div class="job">
+                <h3>Desarrollador Web Frontend</h3>
+                <p>Empresa: *********</p>
+                <p>Ubicación: *********</p>
+                <p>Salario: ********</p>
+                <p>Descripción: Estamos buscando un desarrollador web frontend para unirse a nuestro equipo.</p>
+                <a href="" class="apply-button">Aplicar</a>
+            </div>
+
+            <!-- Trabajo 2 -->
+            <div class="job">
+                <h3>Analista de Datos</h3>
+                <p>Empresa: *********</p>
+                <p>Ubicación: *********</p>
+                <p>Salario: ********</p>
+                <p>Descripción: Estamos buscando un analista de datos para unirse a nuestro equipo.</p>
+                <a href="" class="apply-button">Aplicar</a>
+            </div>
+
+            <!-- Trabajo 3 -->
+            <div class="job">
+                <h3>Gerente de Proyectos</h3>
+                <p>Empresa: *********</p>
+                <p>Ubicación: *********</p>
+                <p>Salario: ********</p>
+                <p>Descripción: Estamos buscando un gerente de proyectos para liderar nuestros proyectos.</p>
+                <a href="" class="apply-button">Aplicar</a>
+            </div>
+
+            <!-- Trabajo 4 -->
+            <div class="job">
+                <h3>Diseñador Gráfico</h3>
+                <p>Empresa: *********</p>
+                <p>Ubicación: *********</p>
+                <p>Salario: ********</p>
+                <p>Descripción: Estamos buscando un diseñador gráfico creativo para unirse a nuestro equipo de diseño.</p>
+                <a href="" class="apply-button">Aplicar</a>
+            </div>
+
+            <!-- Trabajo 5 -->
+            <div class="job">
+                <h3>Especialista en Marketing Digital</h3>
+                <p>Empresa: *********</p>
+                <p>Ubicación: *********</p>
+                <p>Salario: ********</p>
+                <p>Descripción: Buscamos un especialista en marketing digital para nuestra estrategia de marketing en línea.</p>
+                <a href="" class="apply-button">Aplicar</a>
+            </div>
+        </div>
+    </div>
+    <script src="Busqueda_empleo.js"></script>
+</body>
+</html>

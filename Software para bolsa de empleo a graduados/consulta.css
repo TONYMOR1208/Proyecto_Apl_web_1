@@ -1,0 +1,141 @@
+body {
+    position: relative;
+  font-family: "Times New Roman", serif;
+    margin: 0;
+    padding: 0;
+}
+  
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(images/ffn.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(3px);
+    z-index: -1;
+  }
+
+  .info-query {
+    text-align: center;
+    padding: 40px 0;
+}
+  
+.header {
+    background-color:  rgba(9, 143, 9, 0.8); /* Color de fondo con transparencia */
+    color: #fff;
+    text-align: center;
+    padding: 1px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+   border-color: #45a049;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-box {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#search {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#searchButton {
+    background-color:#b90a0a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#searchButton:hover{
+    background-color:  rgba(9, 143, 9, 0.8);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.results {
+    text-align: left;
+}
+
+
+ h2, h3 {
+    color: #333;
+}
+
+.result {
+    background-color: #fff;
+    border: 1px solid #d84b4b;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.view-button {
+    background-color:#b90a0a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.view-button:hover {
+    background-color:  rgba(9, 143, 9, 0.8); /* Color de fondo con transparencia */
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.header a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #b90a0a;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.header a:hover {
+  background-color: rgba(9, 143, 9, 0.8);
+}
+ 

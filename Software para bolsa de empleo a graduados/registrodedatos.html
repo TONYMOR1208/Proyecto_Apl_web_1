@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="rdatos.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Bolsa de Empleo para Graduados de la ULEAM</h1>
+<br>
+         <nav class>
+            <ul>
+                <li><a href="busqueda_empleo.html">Volver a la busqueda de empleo </a></li>
+            </ul>
+           </nav>
+    </div>
+    <div class="container">
+        <h1 class="inicio">Registro de Datos</h1>  <br>
+        <form id="dataRegistrationForm">
+            <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="title">Título</label>
+                <input type="text" id="title" required>
+            </div>
+            <div class="form-group">
+                <label for="experience">Experiencia (años)</label>
+                <input type="number" id="experience" required>
+            </div>
+            <div class="form-group">
+                <label for="skills">Habilidades (separadas por comas)</label>
+                <input type="text" id="skills" required>
+            </div>
+            <div class="form-group">
+                <label for="city">Ciudad</label>
+                <input type="text" id="city" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Teléfono</label>
+                <input type="tel" id="phone" required>
+            </div>
+            <button type="submit" id="registerDataBtn">Registrar Datos</button>
+        </form>
+    </div>
+    <script src="datos.js"> </script>
+</body>
+</html>
